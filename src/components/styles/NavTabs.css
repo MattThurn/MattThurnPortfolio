@@ -1,0 +1,36 @@
+.navbar {
+	list-style-type: none;
+	margin: 0px;
+	padding: 15px;
+	display: flex;
+	justify-content: flex-end;
+	background-color: #131917;
+}
+.name {
+	margin-right: auto;
+	text-decoration: none;
+	font-size: 25px;
+	color: #b4786b;
+}
+
+.hrChange {
+	display: none;
+}
+
+@media screen and (max-width: 650px) {
+	.navbar {
+		text-align: center;
+		display: block;
+	}
+	.name {
+		padding-right: 0px;
+		padding-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.hrChange {
+		color: #2d424a;
+		display: block;
+	}
+}

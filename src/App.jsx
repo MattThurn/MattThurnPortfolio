@@ -1,11 +1,9 @@
-import { useState } from "react";
+import React from "react";
+import PortfolioContainer from "./components/PortfolioContainer";
+import "./App.css";
 
 function App() {
-	return (
-		<div>
-			<h1>hello</h1>
-		</div>
-	);
+	return <PortfolioContainer />;
 }
 
 export default App;
