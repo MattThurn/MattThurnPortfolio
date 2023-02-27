@@ -10,4 +10,4 @@ This is a portfolio made out of React.
 
 Repo: https://github.com/MattThurn/MattThurnPortfolio
 
-Website:
+Website: https://mattthurn.github.io/MattThurnPortfolio/
