@@ -9,7 +9,7 @@ function About() {
 			<div className="about">
 				<h1 className="about-text">About</h1>
 				<div className="about-container">
-					<img className="about-image" src={placeholderImg} />
+					<img alt="A picture of Matt Thurn" className="about-image" src={placeholderImg} />
 					<p className="text-container">
 						I am Matt Thurn, a web developer! Hard work and efficiency are my
 						main values when creating a well designed website. I have a passion

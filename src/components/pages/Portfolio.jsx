@@ -14,7 +14,7 @@ function Portfolio() {
 			</div>
 			<div className="card-container">
 				<div className="card">
-					<img className="placeholder-img" src={WikimonDemo} />
+					<img alt="a picture of the website Wikimon" className="placeholder-img" src={WikimonDemo} />
 					<h1>
 						<a
 							href="https://mattthurn.github.io/Wikimon/"
@@ -30,7 +30,7 @@ function Portfolio() {
 					</a>
 				</div>
 				<div className="card">
-					<img className="placeholder-img" src={ParkHopperDemo} />
+					<img alt="a picture of the website Park Hopper" className="placeholder-img" src={ParkHopperDemo} />
 					<h1>
 						<a
 							href="https://park-hopper.herokuapp.com/"
@@ -45,7 +45,7 @@ function Portfolio() {
 					</a>
 				</div>
 				<div className="card">
-					<img className="placeholder-img" src={placeholder} />
+					<img alt="a placeholder image" className="placeholder-img" src={placeholder} />
 					<h1>
 						<a href="#" className="project-title">
 							Work in Progress
