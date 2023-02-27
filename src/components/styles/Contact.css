@@ -8,10 +8,10 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	border: 1px solid #b4786b;
 	box-sizing: border-box;
 	margin: 10px;
 	border-radius: 6px;
+	background-color: #293632;
 }
 
 .form-label {
@@ -45,6 +45,6 @@
 @media screen and (min-width: 820px) {
 	.form-container {
 		margin: 0px 220px;
-		box-shadow: 6px 10px 3px #b4786b;
+		box-shadow: 10px 5px 5px black;
 	}
 }

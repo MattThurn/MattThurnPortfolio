@@ -40,16 +40,19 @@
 }
 
 .text-style {
+	display: flex;
 	text-decoration: none;
-	font-size: 35px;
-	padding: 15px;
+	font-size: 25px;
+	padding: 10px;
 	color: #b4786b;
-	transition: all 500ms;
+	transition: all 350ms;
+	align-items: center;
 }
 
 .text-style:hover {
 	background-color: #293631;
-	font-size: 36px;
+	color: white;
+	outline: 2px solid #b4786b;
 }
 
 @media screen and (max-width: 810px) {
@@ -69,8 +72,7 @@
 		font-size: 20px;
 	}
 
-
-	#about-hover {
+	/* #about-hover {
 		text-decoration: none;
 		font-size: 35px;
 		padding: 15px;
@@ -121,5 +123,17 @@
 		color: white;
 		padding: 6px 50px 6px 50px;
 		margin: 10px;
+	} */
+
+	.text-style {
+		padding: 0px;
+		margin: 0px;
+		display: block;
+	}
+
+	.text-style:hover {
+		color: white;
+		outline: 0px;
+		background-color: #131917;
 	}
 }

@@ -1,0 +1,17 @@
+.container {
+	color: #b4786b;
+}
+
+.page-title {
+	color: #b4786b;
+	text-align: center;
+}
+
+.list-title {
+	margin: 40px;
+}
+
+.list {
+	margin-left: 100px;
+	font-size: 20px;
+}

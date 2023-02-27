@@ -1,7 +1,7 @@
 import React from "react";
 import IconBar from "../IconBar";
 import "../styles/About.css";
-import placeholderImg from "../../assets/images/placeholder-256x256.png";
+import placeholderImg from "../../assets/images/about_me_photo.png";
 
 function About() {
 	return (
@@ -11,13 +11,10 @@ function About() {
 				<div className="about-container">
 					<img className="about-image" src={placeholderImg} />
 					<p className="text-container">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias,
-						aperiam quam laboriosam nemo repudiandae ratione consequuntur? Nemo
-						inventore tempora, nulla nisi necessitatibus, omnis saepe sed eum,
-						eos adipisci similique unde. Lorem ipsum dolor sit, amet consectetur
-						adipisicing elit. Dolorum ratione error maxime rem ullam dolor
-						beatae totam corrupti quaerat aspernatur, eos inventore explicabo
-						molestiae, possimus quisquam a! Libero, cumque incidunt!
+						I am Matt Thurn, a web developer! Hard work and efficiency are my
+						main values when creating a well designed website. I have a passion
+						for learning new things and programming is just the right thing to
+						quench that. Outside of coding I enjoy video games and reading.
 					</p>
 				</div>
 			</div>
